@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+pyvenv.cfg
+
+# Poetry
+# O arquivo poetry.lock deve ser versionado, mas diretórios de config não
+.configuration/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Se desejar ignorar os outputs dos notebooks para manter o git limpo:
+# *.ipynb_checkpoints
+
+# Data (Crucial para análise de dados)
+# Ignora arquivos de dados pesados ou locais
+data.csv
+*.csv
+*.xlsx
+*.json
+*.sqlite3
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db 
